@@ -1,6 +1,11 @@
 
 # Reflection – Lab 5: Static Code Analysis
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e7a71d3 (Lab 5: Static analysis fixes and reflection)
 ## 1. Which issues were the easiest to fix, and which were the hardest? Why?
 
 The easiest issue to fix was the line length violation (E501) reported by Flake8. It only required breaking the line using parentheses, which was simple and didn’t affect the logic. Another easy fix was replacing the mutable default argument (`logs=[]`) with `None` and initializing it inside the function to avoid shared state across calls.
